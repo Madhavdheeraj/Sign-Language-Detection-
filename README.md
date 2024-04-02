@@ -49,6 +49,9 @@ To train the deep learning model for hand gesture recognition, a dataset of hand
 - Fine-tune the model and adjust hyperparameters based on validation results to improve accuracy and convergence.
 - Once satisfied with the model's performance, save the trained model to an h5 file using the model.save() method in Keras.
 
+### Output of using trained model
+![Hand Gesture Dataset](IMages/Output.png)
+
 ### Server Setup
 - Run the server.py code on a dedicated server or a host machine with a static IP address.
 - Define the host IP address (HOST) and port (PORT) in the server code.
