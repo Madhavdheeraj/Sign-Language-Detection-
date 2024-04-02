@@ -1,4 +1,6 @@
 # Real-Time Two-Way Sign Language Communication System
+
+## Click on the below link for explaination
 [Watch the video](https://www.youtube.com/watch?v=88Ff9QOND_Q)
 
 ## Description
@@ -89,12 +91,6 @@ To train the deep learning model for hand gesture recognition, a dataset of hand
 - client2.py receives the data from the server, stores it, and performs any required actions based on the received input.
 
 ![Hand Gesture Dataset](IMages/Server.png)
-
-### WebRTC communication
-## Uploaded Video
-[Before video](IMages/uploaded_video.mp4)
-## Output Video
-[After video](IMages/output_video.mp4)
 
 ## Conclusion
 Please note that the current repository demonstrates a simplified client-server interaction for two-way communication. The final implementation with WebRTC offers a more comprehensive solution, enabling seamless real-time video call translation with enhanced accessibility features.
