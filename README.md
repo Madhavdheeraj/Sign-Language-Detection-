@@ -98,12 +98,16 @@ Please note that the current repository demonstrates a simplified client-server 
 ## Future Implementation with WebRTC
 In further development we will be implementing this in a real time video call platform where the deaf and dumb person and a normal person can interact.
 
-## DEMO
-<div style="display: flex; flex-direction: column; align-items: center;">
-  <div style="text-align: center;">Before</div>
-  <img src="IMages/1.png" alt="Alt Text 1" style="width: 400px; height: 400px; margin: 20px;">
-  <div style="text-align: center;">After</div>
-  <img src="IMages/2.png" alt="Alt Text 2" style="width: 400px; height: 400px; margin: 20px;">
+## Demo
+<div style="display: flex; justify-content: space-around;">
+  <div style="text-align: center;">
+    <p>Before</p>
+    <img src="IMages/1.png" alt="Alt Text 1" style="width: 400px; height: 300px; margin: 10px;">
+  </div>
+  <div style="text-align: center;">
+    <p>After</p>
+    <img src="IMages/2.png" alt="Alt Text 2" style="width: 400px; height: 300px; margin: 10px;">
+  </div>
 </div>
 
 ## Installations
