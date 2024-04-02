@@ -67,6 +67,8 @@ To train the deep learning model for hand gesture recognition, a dataset of hand
 ![Hand Gesture Dataset](IMages/E.png)
 ![Hand Gesture Dataset](IMages/D.png)
 
+![Hand Gesture Dataset](IMages/client1.png)
+
 
 ### Client 2 Setup
 - Run the client2.py code on the device where the received input will be stored.
@@ -75,6 +77,9 @@ To train the deep learning model for hand gesture recognition, a dataset of hand
 - Receive and store the input (recognized hand gestures) sent by client1.py from the server.
 - Display the received input or perform any further actions as required by the application.
 
+![Hand Gesture Dataset](IMages/client2.png)
+
+![Hand Gesture Dataset](IMages/server.png)
 ### Real-Time Communication
 - Ensure that both client1.py and client2.py are connected to the server simultaneously.
 - client1.py continuously captures hand gestures, classifies them, and sends the recognized gestures to the server in real-time.
