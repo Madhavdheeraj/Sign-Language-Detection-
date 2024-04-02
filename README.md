@@ -101,9 +101,9 @@ In further development we will be implementing this in a real time video call pl
 ## DEMO
 <div style="display: flex; flex-direction: column; align-items: center;">
   <div style="text-align: center;">Before</div>
-  <img src="path_to_image_1" alt="Alt Text 1" style="width: 400px; height: 400px; margin: 20px;">
+  <img src="IMages/1.png" alt="Alt Text 1" style="width: 400px; height: 400px; margin: 20px;">
   <div style="text-align: center;">After</div>
-  <img src="path_to_image_2" alt="Alt Text 2" style="width: 400px; height: 400px; margin: 20px;">
+  <img src="IMages/2.png" alt="Alt Text 2" style="width: 400px; height: 400px; margin: 20px;">
 </div>
 
 ## Installations
