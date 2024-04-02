@@ -79,7 +79,8 @@ To train the deep learning model for hand gesture recognition, a dataset of hand
 
 ![Hand Gesture Dataset](IMages/client2.png)
 
-![Hand Gesture Dataset](IMages/server.png)
+## Server response
+![Hand Gesture Dataset](IMages/Server.png)
 ### Real-Time Communication
 - Ensure that both client1.py and client2.py are connected to the server simultaneously.
 - client1.py continuously captures hand gestures, classifies them, and sends the recognized gestures to the server in real-time.
