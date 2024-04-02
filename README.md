@@ -36,7 +36,7 @@ Our goal is to develop a comprehensive real-time two-way communication model tha
 ## Data Collection
 To train the deep learning model for hand gesture recognition, a dataset of hand gesture images labeled with corresponding classes (e.g., letters of the alphabet in sign language) was collected. The dataset should include various hand gestures to ensure robustness and accuracy of the model.
 
-![Hand Gesture Dataset](IMages/data_collection.png)
+![Hand Gesture Dataset](IMages/Data_collection.png)
 
 ### Model Training
 - Train the deep learning model using Convolutional Neural Networks (CNN) for hand gesture recognition.
