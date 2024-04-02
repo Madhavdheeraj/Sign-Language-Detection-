@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Video Recorder</title>
+<style>
+    video {
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 20px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+</style>
+</head>
+<body>
+<video id="videoElement" autoplay></video>
+<button id="startRecording">Start Recording</button>
+<button id="stopRecording">Stop Recording</button>
+
+<script>
+    const videoElement = document.getElementById('videoElement');
+    const startRecordingButton = document.getElementById('startRecording');
+    const stopRecordingButton = document.getElementById('stopRecording');
+
+    let mediaRecorder;
+    let recordedChunks = [];
+
+    navigator.mediaDevices.getUserMedia({ video: true })
+        .then(function(stream) {
+            videoElement.srcObject = stream;
+            mediaRecorder = new MediaRecorder(stream);
+
+            mediaRecorder.ondataavailable = function(event) {
+                if (event.data.size > 0) {
+                    recordedChunks.push(event.data);
+                }
+            };
+
+            mediaRecorder.onstop = function() {
+                const recordedBlob = new Blob(recordedChunks, { type: 'video/webm' });
+                const formData = new FormData();
+                formData.append('video', recordedBlob);
+
+                fetch('/upload', {
+                    method: 'POST',
+                    body: formData
+                }).then(response => {
+                    console.log('Video uploaded successfully');
+                }).catch(error => {
+                    console.error('Error uploading video:', error);
+                });
+
+                recordedChunks = [];
+            };
+        })
+        .catch(function(error) {
+            console.error('Error accessing media devices:', error);
+        });
+
+    startRecordingButton.addEventListener('click', function() {
+        if (mediaRecorder && mediaRecorder.state === 'inactive') {
+            recordedChunks = [];
+            mediaRecorder.start();
+        }
+    });
+
+    stopRecordingButton.addEventListener('click', function() {
+        if (mediaRecorder && mediaRecorder.state === 'recording') {
+            mediaRecorder.stop();
+        }
+    });
+</script>
+</body>
+</html>
