@@ -1,4 +1,5 @@
 # Real-Time Two-Way Sign Language Communication System
+[Watch the video](https://www.youtube.com/watch?v=88Ff9QOND_Q)
 
 ## Description
 The Real-Time Two-Way Sign Language Communication System aims to address the communication barrier experienced by the Deaf and Hard of Hearing (DHH) community when interacting with individuals who do not understand sign language. This project focuses on developing a comprehensive real-time translation tool that seamlessly converts American Sign Language (ASL) to English and vice versa. The system operates in two modes:
@@ -80,6 +81,7 @@ In further development we will be implementing this in a real time video call pl
 - OpenCV
 - TensorFlow/Keras
 - cvzone
-![Video Title](https://www.youtube.com/watch?v=88Ff9QOND_Q)
+
+![](https://www.youtube.com/watch?v=88Ff9QOND_Q)
 ## Contacts
 Veda Sai Prakash - Contact: 7989009316
