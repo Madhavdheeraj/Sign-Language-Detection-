@@ -101,8 +101,8 @@ In further development we will be implementing this in a real time video call pl
 ## DEMO
 ## Photos
 <div style="display: flex;">
-  <img src="IMages/1.png" alt="Alt Text 1" style="width: 500px; height: 300px; margin-right: 10px;">
-  <img src="IMages/2.png" alt="Alt Text 2" style="width: 500px; height: 300px;">
+  <img src="IMages/1.png" alt="Alt Text 1" style="width: 400px; height: 300px; margin-right: 50px;">
+  <img src="IMages/2.png" alt="Alt Text 2" style="width: 400px; height: 300px;">
 </div>
 
 ## Installations
