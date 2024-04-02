@@ -101,14 +101,9 @@ In further development we will be implementing this in a real time video call pl
 ## DEMO
 ## Photos
 <div style="display: flex;">
-  <img src="IMages/1.png" alt="Alt Text 1" style="width: 300px; height: 200px; margin-right: 10px;">
-  <img src="IMages/2.png" alt="Alt Text 2" style="width: 300px; height: 200px;">
+  <img src="IMages/1.png" alt="Alt Text 1" style="width: 500px; height: 300px; margin-right: 10px;">
+  <img src="IMages/2.png" alt="Alt Text 2" style="width: 500px; height: 300px;">
 </div>
-
-## Photos
-| Before                                | After                                 |
-| ------------------------------------- | ------------------------------------- |
-| ![Hand](IMages/1.png)                 | ![Hand](IMages/2.png)                 |
 
 ## Installations
 - Python 3.x
