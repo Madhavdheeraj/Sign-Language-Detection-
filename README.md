@@ -73,7 +73,7 @@ Our goal is to develop a comprehensive real-time two-way communication model tha
 Please note that the current repository demonstrates a simplified client-server interaction for two-way communication. The final implementation with WebRTC offers a more comprehensive solution, enabling seamless real-time video call translation with enhanced accessibility features.
 
 ## Future Implementation with WebRTC
-For the final implementation, we plan to integrate WebRTC technology for real-time video call translation. This will involve developing a web-based application where users can interact via video calls, with the system translating sign language gestures to text and spoken language, and vice versa. Stay tuned for updates on this feature!
+In further development we will be implementing this in a real time video call platform where the deaf and dumb person and a normal person can interact.
 
 ## Installations
 - Python 3.x
@@ -82,4 +82,4 @@ For the final implementation, we plan to integrate WebRTC technology for real-ti
 - cvzone
 
 ## Contacts
-For questions or feedback, please contact author-name.
+Veda Sai Prakash - Contact: 7989009316
