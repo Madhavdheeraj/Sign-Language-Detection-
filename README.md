@@ -98,12 +98,17 @@ Please note that the current repository demonstrates a simplified client-server 
 ## Future Implementation with WebRTC
 In further development we will be implementing this in a real time video call platform where the deaf and dumb person and a normal person can interact.
 
+## DEMO
+## Photos
+| Before                                | After                                 |
+| ------------------------------------- | ------------------------------------- |
+| ![Hand](IMages/1.png)                 | ![Hand](IMages/2.png)                 |
+
 ## Installations
 - Python 3.x
 - OpenCV
 - TensorFlow/Keras
 - cvzone
 
-![](https://www.youtube.com/watch?v=88Ff9QOND_Q)
 ## Contacts
 Veda Sai Prakash - Contact: 7989009316
