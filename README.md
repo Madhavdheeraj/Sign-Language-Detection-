@@ -79,13 +79,17 @@ To train the deep learning model for hand gesture recognition, a dataset of hand
 
 ![Hand Gesture Dataset](IMages/client2.png)
 
-## Server response
-![Hand Gesture Dataset](IMages/Server.png)
 ### Real-Time Communication
 - Ensure that both client1.py and client2.py are connected to the server simultaneously.
 - client1.py continuously captures hand gestures, classifies them, and sends the recognized gestures to the server in real-time.
 - The server receives the data from client1.py, processes it if necessary, and forwards it to client2.py.
 - client2.py receives the data from the server, stores it, and performs any required actions based on the received input.
+
+![Hand Gesture Dataset](IMages/Server.png)
+
+## WebRTC communication
+
+
 
 ## Conclusion
 Please note that the current repository demonstrates a simplified client-server interaction for two-way communication. The final implementation with WebRTC offers a more comprehensive solution, enabling seamless real-time video call translation with enhanced accessibility features.
