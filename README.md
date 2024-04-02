@@ -63,9 +63,9 @@ To train the deep learning model for hand gesture recognition, a dataset of hand
 - Classify the detected hand gestures using the Classifier module (CNN Model).
 - Send the recognized hand gestures to the server for further processing and transmission to client2.py.
 
-![Hand Gesture Dataset](B.png)
-![Hand Gesture Dataset](E.jpg)
-![Hand Gesture Dataset](D.jpg)
+![Hand Gesture Dataset](IMages/B.png)
+![Hand Gesture Dataset](IMages/E.png)
+![Hand Gesture Dataset](IMages/D.png)
 
 
 ### Client 2 Setup
