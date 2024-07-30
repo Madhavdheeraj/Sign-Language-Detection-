@@ -116,5 +116,3 @@ In further development we will be implementing this in a real time video call pl
 - TensorFlow/Keras
 - cvzone
 
-## Contacts
-Veda Sai Prakash - Contact: 7989009316
